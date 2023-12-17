@@ -1,23 +1,19 @@
 <html>
     <head>
-        <title>Output</title>
+        <title>Upload</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     </head>
     <body>
         
         <div class="container text-center min-vh-100 d-flex flex-column align-items-center justify-content-center py-4">
-            <div class="row">
-              <div class="col">
-                <h1>Before</h1>
-                <img src="{{ file_path }}" alt="asdasd" style="width: 400px; height:400px">
-            </div>
-            <div class="col">
-                <h1>After</h1>
-                <img src="{{ result_path }}" alt="asdasd" style="width: 400px; height:400px">
-              </div>
-            </div>
+            <h1>Upload File</h1>
 
-            <a name="" id="" class="btn btn-primary mt-3" href="/" role="button">Kembali</a>
+            <form class="mt-3" method=post enctype=multipart/form-data>
+            <input type=file name=file>
+
+            <input class="btn btn-primary" type="submit" value="Upload"/>
+            
+            </form>
         </div>
 
         
