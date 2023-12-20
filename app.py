@@ -58,6 +58,7 @@ def test():
                 with open(os.path.join('static', image_name), "wb") as fs:
                     fs.write(f.read())
 
+
             return redirect(url_for("output"))
     return render_template("index.html")
 
