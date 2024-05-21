@@ -1,5 +1,4 @@
 # Image Colorization
-
 Deep learning project tentang pembuatan model yang dapat memprediksi warna pada gambar input berskala abu-abu (Image Colorization).
 
 ## Bagaimana model dilatih ?
@@ -10,7 +9,11 @@ Deep learning project tentang pembuatan model yang dapat memprediksi warna pada 
 
 ## Jalankan di terminal
 ```
+pip install -r requirements.txt
+```
 
+```
+python app.py
 ```
 
 ## Contoh
