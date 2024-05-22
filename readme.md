@@ -24,6 +24,6 @@ python app.py
 
 ## 👤 Author
 * Benediktus Hengki Setiawan : [Linkedin](https://www.linkedin.com/in/benngki/)
+* Ramadhan Ihsani Yulfa : [Linkedin](https://www.linkedin.com/in/ramadhan-ihsani-yulfa/)
 * Nicholas Daniel Wijaya
 * Nicky Takeo Toari
-* Ramadhan Ihsani Yulfa : [Linkedin](https://www.linkedin.com/in/ramadhan-ihsani-yulfa/)
