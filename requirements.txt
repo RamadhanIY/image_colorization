@@ -4,3 +4,4 @@ matplotlib==3.7.1
 scikit-image==0.19.3
 tensorflow==2.14.0
 keras==2.14.0
+opencv-python==4.9.0
